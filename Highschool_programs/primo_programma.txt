@@ -1,0 +1,39 @@
+/*
+* Con due numeri calcolare
+* la somma, la differenza, il prodotto, il quoziente 
+* ed il resto
+* Autore: Matteo Zaramella
+* Data: 05/11/14
+* Classe: 3Bs
+*/
+
+class OperIntDouble {
+	public static void main (String[]args)
+	{
+	//Dichiarazione variabili
+	double a; //primo numero
+	double b; //secondo numero
+	double c; //risultato
+
+	//operazioni
+	a=6,8;
+	b=4,5;
+
+	c=a+b; //somma
+	System.out.println("\nLa somma tra " +a+ " e " +b+ "e\u0027 uguale a " +c);
+
+	c=a-b; //differenza
+	System.out.println("\nLa differenza tra " +a+ " e " +b+ "e\u0027 uguale a " +c);
+
+	c=a*b; //prodotto
+	System.out.println("\nIl prodotto tra " +a+ " e " +b+ "e\u0027 uguale a " +c);
+
+	c=a/b; //quoziente
+	System.out.println("\nIl quoziente tra " +a+ " e " +b+ "e\u0027 uguale a " +c);
+
+	c=a%b; //resto divisione
+	System.out.println("\nIl resto della divisione tra " +a+ " e " +b+ "e\u0027 uguale a " +c);
+
+	System.out.printl("\nFine elaborazione");
+	}
+}
